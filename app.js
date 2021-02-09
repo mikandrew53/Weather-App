@@ -11,6 +11,7 @@ const today = new Date();
 
 // Get Weather on DOM load
 document.addEventListener('DOMContentLoaded', getWeather);
+console.log('hello');
 
 // Declare DOM Elements for listening
 const dateSearch = document.getElementById('date-search');

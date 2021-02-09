@@ -27,6 +27,7 @@ class Weather {
                    });
                 }
             });
+            
            return cities;
         }else 
             throw `Error: ${cityIdResponse.status} ${cityIdResponse.statusText}`; 
